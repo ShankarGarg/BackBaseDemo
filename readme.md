@@ -1,17 +1,17 @@
 # This project is for BackBase sample app testing.
 
 **Technologies used:**
-1. Cucumber : Behavior Driven Development
-2. Selenium : Web Automation
-3. Java: Programming language
-4. Page Object model: Programming pattern for better maintainance and extension
+* Cucumber : Behavior Driven Development
+* Selenium : Web Automation
+* Java: Programming language
+* Page Object model: Programming pattern for better maintainance and extension
 
 *This project can also be integrated without any changes to following:*
-Jenkins : for CICD
-GIT : version control
+* Jenkins : for CICD
+* GIT : version control
 
-- Test Cases are in: "src/test/java/com/cucumber/automation/features"
-- Results are in: "target/cucumber/index.html"
+* Test Cases are in: "src/test/java/com/cucumber/automation/features"
+* Results are in: "target/cucumber/index.html"
 
 ## Softwares needed to run this project:
 •	Java >= 7 (http://www.oracle.com/technetwork/java/javase/downloads/index.html)
