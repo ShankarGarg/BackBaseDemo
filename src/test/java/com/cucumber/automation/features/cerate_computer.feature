@@ -1,4 +1,4 @@
-Feature: BackBase Demo app : Create Computer
+Feature: Create Computer
   In order to test create Computer functionality
     As a tester
     I want to specify test scenarios
@@ -58,7 +58,7 @@ Feature: BackBase Demo app : Create Computer
     Examples: positive scenario- Computer Name
       | name           | IntroDate  | DiscnDate  | msg                                                                                                                                                                                         |
       #Special Characters in CompName
-      | ~@$%^&()_+}{:  | 2016-09-30 | 2016-10-05 | Success:Done! Computer ~@$%^&()_+}{: has been created                                                                                                                                       |
+      | ~@%^&()_+  | 2016-09-30 | 2016-10-05 | Success:Done! Computer ~@%^&()_+ has been created                                                                                                                                       |
       #Very lengthy CompName
       | SSSSSSSSSSSSHHHHHHHHHHHHHHHHHHHHAAAAAAAAAAAAAAAAAAAAAAAAAKKKKKKKKKKKKKKKKKKAAAAAAAAAAAAAAAAAAAAAAAGGGGGGGGGGG^^^^^^^^^^^^^^^^^^$$$$$$$$$$$$$$$$$$$$ | 2016-09-30 | 2016-10-05 | Success:Done! Computer SSSSSSSSSSSSHHHHHHHHHHHHHHHHHHHHAAAAAAAAAAAAAAAAAAAAAAAAAKKKKKKKKKKKKKKKKKKAAAAAAAAAAAAAAAAAAAAAAAGGGGGGGGGGG^^^^^^^^^^^^^^^^^^$$$$$$$$$$$$$$$$$$$$ has been created |
       #Only numbers in CompName

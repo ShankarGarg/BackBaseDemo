@@ -23,7 +23,7 @@
 1. open Terminal
 2. CD till project root.
 3. execute command to run all test cases:
-mvn test 
+mvn clean test 
 
 ## Test coverage:
 1. cerate_computer.feature : File containing all scenarios for Create Computer
@@ -32,7 +32,8 @@ mvn test
 # Advantages:
 1. All manual test cases are converted to Automated test cases with ease and in very less time.
 2. Any change to manual test case will also reflect in automated test case and automated test cases will be controlled by manual test cases directly.
-2. using scenario outlines different combinations can be tested very easily and all conditions are very easily readable.
+3. No need to execute manual test cases at all, because report of this framework is like report of manual execution.
+4. using scenario outlines different combinations can be tested very easily and all conditions are very easily readable.
 
 ## Results of all scenarios are present in target/cucumber/index.html file.
 

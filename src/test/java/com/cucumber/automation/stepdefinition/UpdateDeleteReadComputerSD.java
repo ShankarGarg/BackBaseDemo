@@ -29,9 +29,8 @@ public class UpdateDeleteReadComputerSD {
     }
 
     @When("^i click on searched result \"([^\"]*)\"$")
-    public void i_click_on_searched_result(String text) throws InterruptedException  {
+    public void i_click_on_searched_result(String text)   {
 	homePage.clickSearchedComputer(text);
-	Thread.sleep(5000);
     }
 
     @Then("^i can see following details of the computer$")
@@ -46,7 +45,7 @@ public class UpdateDeleteReadComputerSD {
     
     //Scenario: Verify if delete computer is working
     @When("^click on Delete this computer button$")
-    public void click_on_Delete_this_computer_button() throws InterruptedException {
+    public void click_on_Delete_this_computer_button() {
         compCRUD.clickdeleteButton();
     }
 

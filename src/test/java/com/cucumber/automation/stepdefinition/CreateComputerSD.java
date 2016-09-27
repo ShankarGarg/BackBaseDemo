@@ -138,31 +138,24 @@ public class CreateComputerSD {
     }
 
     @When("^i click on Create Computer$")
-    public void i_click_on_Create_Computer() throws InterruptedException  {
+    public void i_click_on_Create_Computer()   {
         compCRUD.clickCreateNewButton();
     }
     
     @When("^i click on Save this Computer$")
-    public void i_click_on_Save_Computer() throws InterruptedException  {
+    public void i_click_on_Save_Computer()  {
         compCRUD.clickCreateNewButton();
     }
 
     @Then("^i see this \"([^\"]*)\"$")
     public void i_see_this_msg(String arg1)  {
-//	System.out.println(arg1);
 	if(arg1.contains("Success")){
 	    String[] parts = arg1.split(":");
-//	    System.out.println(parts[0]);
-//	    System.out.println(parts[1]);
-//	    System.out.println(homePage.returnAlertMessage());
 	    assertEquals(parts[1], homePage.returnAlertMessage());
 	}
 	else if (arg1.contains("Error")){
 	    assertEquals("rgba(64, 64, 64, 1)", compCRUD.returnErrorLineColor());
 	}
-//	else {
-//	    assertTrue(false);
-//	}
     }
     //Scenario Outline: Verifying Scenarios for Create Computer 
 }

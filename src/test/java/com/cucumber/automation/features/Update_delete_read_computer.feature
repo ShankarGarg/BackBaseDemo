@@ -1,4 +1,4 @@
-Feature: BackBase Demo app : Update_delete_Read_Computer
+Feature: Update_delete_Read_Computer
   In order to test Update_delete_Read Computer functionality
     As a tester
     I want to specify test scenarios
@@ -14,8 +14,8 @@ Feature: BackBase Demo app : Update_delete_Read_Computer
 
     Examples: Sample Data to be used in scenarios mentioned afer this
       | name        | IntroDate  | DiscnDate  | msg                                                    |
-      | garg_read   | 2016-10-30 | 2016-11-05 | Success:Done! Computer garg_compName has been created  |
-      | garg_delete | 2016-10-30 | 2016-11-05 | Success:Done! Computer garg1_compName has been created |
+      | garg_read   | 2016-10-30 | 2016-11-05 | Success:Done! Computer garg_read has been created  |
+      | garg_delete | 2016-10-30 | 2016-11-05 | Success:Done! Computer garg_delete has been created |
       | garg_edit   | 2016-10-30 | 2016-11-05 | Success:Done! Computer garg_edit has been created      |
       | garg_edit   | 2016-10-30 | 2016-11-05 | Success:Done! Computer garg_edit has been created      |
       | garg_edit   | 2016-10-30 | 2016-11-05 | Success:Done! Computer garg_edit has been created      |
@@ -83,7 +83,7 @@ Feature: BackBase Demo app : Update_delete_Read_Computer
     Examples: positive scenario- Computer Name
       | name           | IntroDate  | DiscnDate  | msg                                                                                                                                                                                         |
       #Special Characters in CompName
-      | ~@$%^&()_+}{:  | 2016-09-30 | 2016-10-05 | Success:Done! Computer ~@$%^&()_+}{: has been updated                                                                                                                                       |
+      | ~@%^&()_+  | 2016-09-30 | 2016-10-05 | Success:Done! Computer ~@%^&()_+ has been updated                                                                                                                                       |
       #Very lengthy CompName
       |  SSSSSSSSSSSSHHHHHHHHHHHHHHHHHHHHAAAAAAAAAAAAAAAAAAAAAAAAAKKKKKKKKKKKKKKKKKKAAAAAAAAAAAAAAAAAAAAAAAGGGGGGGGGGG^^^^^^^^^^^^^^^^^^$$$$$$$$$$$$$$$$$$$$ | 2016-09-30 | 2016-10-05 | Success:Done! Computer SSSSSSSSSSSSHHHHHHHHHHHHHHHHHHHHAAAAAAAAAAAAAAAAAAAAAAAAAKKKKKKKKKKKKKKKKKKAAAAAAAAAAAAAAAAAAAAAAAGGGGGGGGGGG^^^^^^^^^^^^^^^^^^$$$$$$$$$$$$$$$$$$$$ has been updated |
       #Only numbers in CompName

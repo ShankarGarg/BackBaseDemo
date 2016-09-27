@@ -132,11 +132,9 @@ public class ComputerCRUD extends SeleniumBase{
         }
     }
     
-    public void clickCreateNewButton() throws InterruptedException{
+    public void clickCreateNewButton(){
         waitVar.until(ExpectedConditions.presenceOfElementLocated(createButton));
-        Thread.sleep(1000);
         driver.findElement(createButton).click();
-        Thread.sleep(1000);
     }
     
     public String returnErrorLineColor(){
@@ -149,9 +147,8 @@ public class ComputerCRUD extends SeleniumBase{
         return driver.findElement(deleteButton).getAttribute("value");
    }
     
-    public void clickdeleteButton() throws InterruptedException{
+    public void clickdeleteButton(){
         waitVar.until(ExpectedConditions.presenceOfElementLocated(deleteButton));
         driver.findElement(deleteButton).click();
-        Thread.sleep(2000);
    }
 }
