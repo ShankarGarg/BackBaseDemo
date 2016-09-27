@@ -10,14 +10,14 @@
 * Jenkins : for CICD
 * GIT : version control
 
-* Test Cases are in: "src/test/java/com/cucumber/automation/features"
-* Results are in: "target/cucumber/index.html"
+### Test Cases are in: "src/test/java/com/cucumber/automation/features"
+### Results are in: "target/cucumber/index.html"
 
 ## Softwares needed to run this project:
-•	Java >= 7 (http://www.oracle.com/technetwork/java/javase/downloads/index.html)
-•	Eclipse >= 4.4.2 (http://www.eclipse.org/downloads/)
-•	Maven from terminal (https://maven.apache.org/download.cgi)
-•	Eclipse-Maven plugin (https://marketplace.eclipse.org/content/maven-integration-eclipse-luna-and-newer)
+* Java >= 7 (http://www.oracle.com/technetwork/java/javase/downloads/index.html)
+* Eclipse >= 4.4.2 (http://www.eclipse.org/downloads/)
+* Maven from terminal (https://maven.apache.org/download.cgi)
+* Eclipse-Maven plugin (https://marketplace.eclipse.org/content/maven-integration-eclipse-luna-and-newer)
 
 ## How to run this project:
 1. open Terminal
